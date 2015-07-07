@@ -1,0 +1,18 @@
+{
+    "contents" : "library(DiagrammeR)\ngrViz(\"\n      digraph boxes_and_circles {\n      \n      # a 'graph' statement\n      graph [overlap = true, fontsize = 12]\n      \n      # several 'node' statements\n      node [shape = box,\n      fontname = Helvetica]\n      Attica; Troy; Delphi; Lacedaimonia\n      \n      node [shape = circle,\n      ] // sets as circles\n      Socrates; Jury; Apollodorus; Xenophon; Hermogenes; Lycurgus; Pythia; Apollo; Chaerephon; Palamedes; Odysseus; Anytus; Meletus; Anytus_son\n      \n      # several 'edge' statements\n      Socrates->Jury Socrates->Meletus Socrates->Anytus Socrates->Anytus_son Socrates->Palamedes Socrates->Apollodorus Socrates->Hermogenes Socrates->Chaerephon Socrates->Lycurgus Socrates->Attica\n      Anytus->Socrates Anytus->Meletus Anytus->Anytus_son Anytus->Attica Anytus->Jury\n      Meletus->Socrates Meletus->Anytus Meletus->Attica Meletus->Jury\n      Anytus_son->Anytus Anytus_son->Attica\n      Palamedes->Odysseus Palamedes->Troy\n      Odysseus->Palamedes Odysseus->Troy\n      Jury->Attica\n      Apollodorus->Socrates Apollodorus->Attica\n      Hermogenes->Socrates Hermogenes->Xenophon Hermogenes->Attica\n      Xenophon->Hermogenes Xenophon-> Attica Xenophon->Lacedaimonia\n      Lycurgus->Apollo Lycurgus->Pythis Lycurgus->Delphi Lycurgus->Lacedaimonia\n      Apollo->Pythia Apollo->Lycurgus Apollo->Delphi\n      Pythia->Apollo Pythia->Chaerephon Pythia->Lycurgus Pythia->Delphi\n      Chaerephon->Socrates Chaerephon->Pythia Chaerephon->Delphi Chaerephon->Attica\n      }\n      \")",
+    "created" : 1433870083216.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2151910677",
+    "id" : "65516217",
+    "lastKnownWriteTime" : 1433871228,
+    "path" : "C:/Users/James/Dropbox/College/Summer Scholars/social_network/Xen_apo_soc_net.R",
+    "project_path" : "Xen_apo_soc_net.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
